@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bmiInfo"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvBmiInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/body_mass_index"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"
+        android:background="@color/grey_text"/>
+
+    <TextView
+        android:id="@+id/tvUnderweight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bmi_underweight"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="25dp"/>
+
+
+    <TextView
+        android:id="@+id/tvHealthy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bmi_healthy"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="15dp"/>
+
+
+    <TextView
+        android:id="@+id/tvOverweight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bmi_overweight"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="25dp"/>
+
+
+    <TextView
+        android:id="@+id/tvObese"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bmi_obese"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>

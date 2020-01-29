@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileFragment"
+    android:padding="25dp">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tvProfileHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/profile_header"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="3sp"
+        android:background="@color/grey_text"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/etProfileName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/profile_name"
+        android:inputType="text|textPersonName"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/etProfileSurname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:hint="@string/profile_surname"
+        android:inputType="text|textPersonName"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/etProfileEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:inputType="text|textEmailAddress"
+        android:hint="@string/profile_email"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/etProfileDOB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:inputType="date"
+        android:hint="@string/profile_dob"
+        android:textSize="18sp" />
+
+
+    <EditText
+        android:id="@+id/etProfileWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number|numberDecimal"
+        android:hint="@string/profile_weight"
+        android:textSize="18sp" />
+
+
+    <EditText
+        android:id="@+id/etProfileHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:inputType="number|numberDecimal"
+        android:hint="@string/profile_height"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/btnProfileSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/profile_save_button"
+        android:textSize="15sp"/>
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3874c7</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="splash_text">#ffffff</color>
+    <color name="white_text">#ffffff</color>
+    <color name="black_text">#0f0f0f</color>
+    <color name="grey_text">#80737171</color>
+    <color name="background">#3874c7</color>
+    <color name="button_color">#ccc6c6</color>
+
+    <color name="unselectedNav">#80ffffff</color>
+    <color name="selectedNav">#ffffff</color>
+
+    <!--FAB options-->
+    <color name="fab_camera">#443ae2</color>
+    <color name="fab_bmi">#32b932</color>
+    <color name="fab_feed">#b11c9d</color>
+
+    <!--border color-->
+    <color name="border_color">#555</color>
+
+</resources>

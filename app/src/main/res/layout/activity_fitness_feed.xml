@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FitnessFeed"
+    android:padding="20dp">
+
+    <View
+        android:id="@+id/goalsView"
+        android:layout_height="3dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="top"
+        android:layout_marginTop="10dp"
+        android:background="@color/grey_text">
+
+    </View>
+
+    <ScrollView
+        android:id="@+id/scrollFeed"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/goalsView">
+
+        <TextView
+            android:id="@+id/tvFeedDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:textSize="15sp"/>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

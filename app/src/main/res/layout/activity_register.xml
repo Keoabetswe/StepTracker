@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:context=".Register"
+    android:background="@color/background"
+    android:padding="30dp"
+
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true">
+
+        <ImageView
+            android:id="@+id/ivRegisterLogo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/user_account" />
+
+        <TextView
+            android:id="@+id/tvRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textStyle="italic"
+            android:text="@string/register"
+            android:layout_gravity="center"
+            android:textColor="@color/white_text"/>
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/name"
+            android:inputType="textCapWords|textPersonName"
+            android:textColor="@color/white_text" />
+
+        <EditText
+            android:id="@+id/etSurname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/surname"
+            android:inputType="textCapWords|textPersonName"
+            android:textColor="@color/white_text" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:textColor="@color/white_text"
+            android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/etDob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/dob"
+        android:inputType="date"
+        android:textColor="@color/white_text" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:textColor="@color/white_text"
+            android:inputType="textPassword"
+            android:drawableRight="@drawable/ic_action_password"
+            android:drawableEnd="@drawable/ic_action_password" />
+
+        <EditText
+            android:id="@+id/etConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/confirm_password"
+            android:inputType="textPassword"
+            android:textColor="@color/white_text"
+            android:drawableRight="@drawable/ic_action_password"
+            android:layout_marginBottom="5dp"
+            android:drawableEnd="@drawable/ic_action_password" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:background="@drawable/rounded_button"
+            android:textSize="20sp"/>
+
+
+
+        <TextView
+            android:id="@+id/tvLoginHere"
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            android:text="@string/login_here"
+            android:layout_gravity="center"
+            android:textColor="@color/white_text"/>
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StatsFragment"
+    android:padding="10dp">
+
+    <View
+        android:id="@+id/goalsView"
+        android:layout_height="3dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="top"
+        android:layout_marginTop="10dp"
+        android:background="@color/grey_text">
+    </View>
+
+    <ScrollView
+        android:id="@+id/statsFeed"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/goalsView">
+
+
+
+
+    </ScrollView>
+
+
+</FrameLayout>
